@@ -1,0 +1,64 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fef5e7;
+  color: #5a3e36;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #f9c74f;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+#app {
+  padding: 20px;
+}
+
+.month-grid, .day-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.month, .day {
+  background-color: #f4a261;
+  margin: 10px;
+  padding: 15px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.month:hover, .day:hover {
+  background-color: #e76f51;
+}
+
+.story {
+  background-color: #f1faee;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.story h2 {
+  color: #e76f51;
+}
+
+.back-button {
+  background-color: #2a9d8f;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #21867a;
+}
